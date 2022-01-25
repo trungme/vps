@@ -24,10 +24,10 @@ echo "function ClickConnect() {
 } 
 setInterval(ClickConnect, 60000)"
 echo "================================"
-echo "Script by HanO"
+echo "Script by trung"
 echo "Cell: +84978.39.41.43"
-echo "Email: daibangcam@gmail.com"
-echo "Website: hano.cf"
+echo "Email: t16n@yahoo.com"
+echo "Website: trung.gq"
 echo "================================"
 cpu=$(echo nproc | bash)
 sudo qemu-system-x86_64 -vnc :0 -hda litexp.qcow2  -smp cores=$cpu  -m 3072M -machine usb=on -device usb-tablet > /dev/null 2>&1
